@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e2c;
+  color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.container {
+  background: #1a1a3d;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+input[type="time"],
+input[type="text"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+  width: 60%;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff4d6d;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3355;
+}
+
+.status-text {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+.alarm-box {
+  background-color: #330000;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px red; }
+  50% { box-shadow: 0 0 20px red; }
+  100% { box-shadow: 0 0 10px red; }
+}
+
+#webcam {
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+#loading {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #0f0;
+}

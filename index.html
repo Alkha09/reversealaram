@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Reverse Alarm Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1> Reverse Alarm Clock</h1>
+    <p>It randomly wakes you up just to mess with you. Solve the riddle to stop it!</p>
+
+    <section class="container">
+      <div class="input-group">
+        <label for="sleepTime">😴 Sleep Time:</label>
+        <input type="time" id="sleepTime" />
+      </div>
+
+      <div class="input-group">
+        <label for="wakeTime">🌞 Wake Time:</label>
+        <input type="time" id="wakeTime" />
+      </div>
+
+      <button onclick="setAlarms()">🛌 Set Reverse Alarm</button>
+      <p id="status" class="status-text"></p>
+
+      <div id="alarm" class="hidden alarm-box">
+        <h2>🔔 WAKE UP! (For no reason!)</h2>
+        <p id="puzzle" class="puzzle-text">Riddle appears here...</p>
+        <input type="text" id="answer" placeholder="Type your answer" />
+        <button onclick="checkPuzzle()">✅ Submit</button>
+      </div>
+
+      <video id="webcam" class="hidden" autoplay muted></video>
+      <div id="loading" class="hidden">🔍 Scanning your face...</div>
+    </section>
+
+    <audio id="bell" loop preload="auto">
+      <source src="sound/tiger-someone-is-calling-you.mp3" type="audio/wav" />
+    </audio>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>
