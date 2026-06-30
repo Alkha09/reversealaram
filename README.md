@@ -31,10 +31,7 @@ For Software:
 - Libraries used-Web Speech API (for speech synthesis),HTML5 Audio(for alarm sound)
 - Tools used-VS Code (development),Browser (Chrome/Firefox for testing),Online audio source for alarm (or local MP3 for offline use)
 
-For Hardware:
-- List main components-Nil
-- List specifications-Nil
-- List tools required-Nil
+
 
 ### Implementation
 For Software:
@@ -93,22 +90,7 @@ Main page
   The next random alarm will repeat the chaos, ensuring no peaceful sleep.
   For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project D
 
@@ -125,13 +107,10 @@ https://github.com/user-attachments/assets/eef3b5e6-6c5f-408c-93f7-089102b158c2
 
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Alkha]: 
+- [Pavithra joy]: 
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
